@@ -1,5 +1,10 @@
-# Hola mundo desde vue js
-### 1.1 Algo importante que decir
+
+# Empezamos el cuso aquí
+## 1.1.1 Algo importante que decir
+### 1.1.1.1 Algo importante que comentar de los títulos
+> markdown!
+>> HOla
+>>> Probando
 ::: danger
 This is a dangerous warning
 :::
@@ -30,11 +35,26 @@ class privilegiado(){
 ### ésta es una prueba luego de iniciar el proyecto
 :tada: :100:
 # 3 Probando un título para éste proyecto
-:tada: :100:
+:house: :firefighter:
 ## 3.2 Subtítulo del proyecto actual
-:tada: :100:
-### 3.1.2 Alguna palabra relevante en los subtítulos
-:tada: :100:
-### 3.2.1 Nada que decir al final
-:tada: :100:
+:shopping: :shrug:
+## 3.1.2 Alguna palabra relevante en los subtítulos
+:guard: :raising_hand_man:
+## 3.2.1 Nada que decir al final
+:page_with_curl: :100:
 [[toc]]
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+# Terminamos el cuso aquí
+
+[Home](/) | <!-- Sends the user to the root README.md -->
+[introduccion](/introduccion/) | <!-- Sends the user to index.html of directory foo -->
+[foo heading](./#heading) | <!-- Anchors user to a heading in the foo README file -->
+[bar - three](../bar/three.md) | <!-- You can append .md (recommended) -->
+[bar - four](../bar/four.html) | <!-- Or you can append .html -->
+[contenido](contenido.md)
