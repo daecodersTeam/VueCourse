@@ -2,7 +2,9 @@ module.exports={
     title: "Curso de VueJs desde cero",
     description : "Bienvenido al curso de VueJs desde cero, aprenderas a realizar SPA, programación modular",
     author : "daecoders",
+    
     themeConfig : {
+        logo : "/assets/img/CursoVueJs.png",
         nav : [
             {
                 text : "Blog",
@@ -19,7 +21,7 @@ module.exports={
         ],
         sidebar : {
             "/" : ["",
-            "contenido", "/introduccion/", "/content/"
+            "/content/", "/introduccion/", "/content/"
             ]
         }
     },
@@ -43,4 +45,17 @@ module.exports={
               ],
         },
       ]
+};
+
+function getSidebarElements(){
+    return [
+        {
+            "title" : "Menú externo creado con una funcion",
+            "collapsable" : false,
+            "children" : [
+                {"title" : "submenú 1 creado con función", "link" : "/introduccion/"},
+                "contenido"
+            ]
+        }
+    ]
 }

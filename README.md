@@ -32,6 +32,9 @@ class privilegiado(){
 </table>
 </div>
 ```
+
+<logoAnimado />
+
 ### ésta es una prueba luego de iniciar el proyecto
 :tada: :100:
 # 3 Probando un título para éste proyecto
