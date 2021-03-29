@@ -2,7 +2,11 @@ module.exports={
     title: "Curso de VueJs desde cero",
     description : "Bienvenido al curso de VueJs desde cero, aprenderas a realizar SPA, programación modular",
     author : "daecoders",
-    
+    head : [
+        [ "script" , {src : "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"}],
+        [ "link" , {rel : "stylesheet", href : "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"}],
+        
+    ],
     themeConfig : {
         logo : "/assets/img/CursoVueJs.png",
         nav : [
