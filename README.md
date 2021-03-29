@@ -32,6 +32,11 @@ class privilegiado(){
 </table>
 </div>
 ```
+### Aquí viene el componente de vue
+
+- [ ]  Si o no?
+- [ ]  Pasa o no pasa?
+- [ ]  negro o azul?
 
 <logoAnimado />
 
