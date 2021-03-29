@@ -60,6 +60,12 @@ class privilegiado(){
 
 # Terminamos el cuso aquí
 
+# Comenzamos a aportar desde github aquí
+
+el primer comentario introducido desde github
+
+# Terminamos github aquí
+
 [Home](/) | <!-- Sends the user to the root README.md -->
 [introduccion](/introduccion/) | <!-- Sends the user to index.html of directory foo -->
 [foo heading](./#heading) | <!-- Anchors user to a heading in the foo README file -->
