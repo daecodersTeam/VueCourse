@@ -73,4 +73,4 @@ el primer comentario introducido desde github
 [bar - four](../bar/four.html) | <!-- Or you can append .html -->
 [contenido](contenido.md)
 
-**** Estamos actualizando
+**** Estamos reparando
